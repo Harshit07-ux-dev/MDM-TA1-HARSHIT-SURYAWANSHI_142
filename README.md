@@ -1,1 +1,3 @@
 # MDM-TA1-HARSHIT-SURYAWANSHI_142
+This project is a web-based Online Food Ordering Management System developed using HTML, CSS, PHP, and MySQL (PhpMyAdmin). It allows customers to browse food items, place orders, and reserve tables online, while enabling admins to manage food categories, orders, and reservations through an admin panel.
+The system provides real-time order updates, reduces manual workload, and improves efficiency in restaurants, cafeterias, and small food businesses. It is designed to simplify the ordering process and enhance customer experience through a user-friendly interface and secure database connectivity.
