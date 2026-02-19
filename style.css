@@ -33,8 +33,8 @@ iframe {
 /* Reservation Background */
 /* Reservation Background */
 .reservation-bg {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                url('bg.jpg');
+   /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),*/
+    background-image : url('bg.jpeg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,4 +125,5 @@ button:hover {
     margin: 0;
     font-size: 28px;
     color: #7b2ff7;
+
 }
