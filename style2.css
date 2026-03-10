@@ -1,0 +1,170 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+height:100vh;
+
+background-image:url("https://images.unsplash.com/photo-1498837167922-ddd27525d352");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+/* dark overlay */
+
+.overlay{
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,0.55);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+/* main container */
+
+.main{
+
+text-align:center;
+color:white;
+
+}
+
+.main h2{
+
+margin-bottom:20px;
+font-weight:600;
+
+}
+
+/* food card */
+
+.food-card{
+
+display:flex;
+align-items:center;
+gap:15px;
+padding:15px;
+width:500px;
+margin:auto;
+border:1px solid rgba(255,255,255,0.4);
+background:rgba(255,255,255,0.1);
+border-radius:6px;
+backdrop-filter: blur(5px);
+margin-bottom:20px;
+
+}
+
+.food-card img{
+
+width:70px;
+height:70px;
+background-image:url("pasta2.jfif") ;
+background-size:cover ;
+border-radius:6px;
+
+}
+
+.food-details{
+
+text-align:left;
+
+}
+
+.food-details input{
+
+width:200px;
+padding:5px;
+margin-top:5px;
+
+}
+
+/* delivery form */
+
+.delivery-box{
+
+width:500px;
+margin:auto;
+padding:20px;
+border:1px solid rgba(255,255,255,0.4);
+background:rgba(255,255,255,0.1);
+border-radius:6px;
+backdrop-filter: blur(5px);
+text-align:left;
+}
+
+.delivery-box h3{
+margin-bottom:10px;
+color:white;
+}
+
+/* form */
+
+form label{
+
+font-size:13px;
+
+}
+
+form input,
+form textarea{
+
+width:100%;
+
+padding:6px;
+
+margin:5px 0 10px 0;
+
+border:none;
+
+border-radius:3px;
+
+}
+
+textarea{
+
+height:90px;
+
+resize:none;
+
+}
+
+/* button */
+
+button{
+
+background:#a855f7;
+
+color:white;
+
+border:none;
+
+padding:6px 12px;
+
+font-size:12px;
+
+border-radius:3px;
+
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#9333ea;
+
+}
